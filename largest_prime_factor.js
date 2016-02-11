@@ -16,7 +16,7 @@ function findLargestPrime(number) {
    while (smallestPrime != number) {
        if (number % smallestPrime === 0) {
    	       number = number / smallestPrime;
- 	     }
+ 	   }
        else {
            smallestPrime++;
        }
